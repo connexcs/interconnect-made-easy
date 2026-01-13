@@ -1,9 +1,9 @@
-# Open Rate Card Specification
+# Interconnect Made Easy Specification
 
 Version: 1.0.0  
 Last Updated: January 3, 2026
 
-This document provides a complete field-by-field reference for the Open Rate Card specification. All fields are **optional** unless explicitly marked as **required**.
+This document provides a complete field-by-field reference for the Interconnect Made Easy specification. All fields are **optional** unless explicitly marked as **required**.
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ This document provides a complete field-by-field reference for the Open Rate Car
 
 ## Document Structure
 
-The Open Rate Card is a JSON document with the following top-level structure:
+The Interconnect Made Easy is a JSON document with the following top-level structure:
 
 ```json
 {
@@ -43,7 +43,7 @@ Core information identifying the rate card and its provider.
 | Field | Type | Description | Example | Validation |
 |-------|------|-------------|---------|------------|
 | `name` | string | The name of the rate card or provider. | `"ABC Telecom Rate Card"` | - |
-| `schema_version` | string | The version of the Open Rate Card specification being used. Must follow semantic versioning (MAJOR.MINOR.PATCH). | `"1.0.0"` | Pattern `^[0-9]+\.[0-9]+\.[0-9]+$` |
+| `schema_version` | string | The version of the Interconnect Made Easy specification being used. Must follow semantic versioning (MAJOR.MINOR.PATCH). | `"1.0.0"` | Pattern `^[0-9]+\.[0-9]+\.[0-9]+$` |
 | `version` | string | The version of this specific rate card document (not the schema). | `"1.0"`, `"2.1.3"` | Pattern `^[0-9]+\.[0-9]+(\.[0-9]+)?$` |
 | `date` | string | Date this rate card was created or published. Format: `YYYY-MM-DD` (ISO 8601 date). | `"2026-01-03"` | - |
 | `cards` | object | Object containing one or more rate card definitions. See [Cards Section](#cards-section). | See example below | - |
@@ -477,7 +477,7 @@ Brief definitions of key telecommunications terms. For comprehensive definitions
 
 ## Additional Properties
 
-The Open Rate Card specification uses `"additionalProperties": true` throughout. This means:
+The Interconnect Made Easy specification uses `"additionalProperties": true` throughout. This means:
 
 ✅ **Parsers must ignore unknown fields** they don't recognize  
 ✅ **Custom fields can be added** at any level without breaking validation  

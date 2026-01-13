@@ -1,6 +1,6 @@
 # Telecommunications Glossary
 
-A comprehensive reference of telecommunications and VoIP terminology used in the Open Rate Card specification.
+A comprehensive reference of telecommunications and VoIP terminology used in the Interconnect Made Easy specification.
 
 ---
 

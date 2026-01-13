@@ -16,7 +16,7 @@ assignees: ''
 - [ ] [GLOSSARY.md](../../GLOSSARY.md)
 - [ ] [VERSIONING.md](../../VERSIONING.md)
 - [ ] [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- [ ] [schema/open-rate-card.schema.json](../../schema/open-rate-card.schema.json)
+- [ ] [schema/interconnect-made-easy.schema.json](../../schema/interconnect-made-easy.schema.json)
 - [ ] Other: _______________
 
 **Specific section/field:** (e.g., "Cards Section > Performance SLA > MOS field")

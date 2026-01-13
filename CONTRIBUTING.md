@@ -1,6 +1,6 @@
-# Contributing to Open Rate Card
+# Contributing to Interconnect Made Easy
 
-Thank you for your interest in contributing to the Open Rate Card specification! This is an open, community-driven project designed to serve the entire telecommunications industry.
+Thank you for your interest in contributing to the Interconnect Made Easy specification! This is an open, community-driven project designed to serve the entire telecommunications industry.
 
 ---
 
@@ -37,10 +37,10 @@ We use **GitHub Issues** for all proposals, discussions, and bug reports. All co
 
 ### Quick Links
 
-- 🐛 [Report a Bug](https://github.com/connexcs/open-rate-card/issues/new?template=bug-report.md)
-- 💡 [Propose New Field](https://github.com/connexcs/open-rate-card/issues/new?template=new-field-proposal.md)
-- 📋 [Propose New Card Type](https://github.com/connexcs/open-rate-card/issues/new?template=new-card-type.md)
-- ❓ [Request Clarification](https://github.com/connexcs/open-rate-card/issues/new?template=clarification.md)
+- 🐛 [Report a Bug](https://github.com/connexcs/interconnect-made-easy/issues/new?template=bug-report.md)
+- 💡 [Propose New Field](https://github.com/connexcs/interconnect-made-easy/issues/new?template=new-field-proposal.md)
+- 📋 [Propose New Card Type](https://github.com/connexcs/interconnect-made-easy/issues/new?template=new-card-type.md)
+- ❓ [Request Clarification](https://github.com/connexcs/interconnect-made-easy/issues/new?template=clarification.md)
 
 ---
 
@@ -55,7 +55,7 @@ We use **GitHub Issues** for all proposals, discussions, and bug reports. All co
 
 ### How to Propose
 
-1. **Open a GitHub Issue** using the [New Field Proposal](https://github.com/connexcs/open-rate-card/issues/new?template=new-field-proposal.md) template
+1. **Open a GitHub Issue** using the [New Field Proposal](https://github.com/connexcs/interconnect-made-easy/issues/new?template=new-field-proposal.md) template
 2. **Fill out all sections** of the template:
    - Field name
    - Parent section
@@ -174,7 +174,7 @@ No existing fields are modified or removed.
 
 ### How to Propose
 
-1. **Open a GitHub Issue** using the [New Card Type](https://github.com/connexcs/open-rate-card/issues/new?template=new-card-type.md) template
+1. **Open a GitHub Issue** using the [New Card Type](https://github.com/connexcs/interconnect-made-easy/issues/new?template=new-card-type.md) template
 2. **Provide comprehensive details:**
    - Type name and identifier
    - Direction (inbound/outbound/bidirectional)
@@ -236,7 +236,7 @@ New type is needed rather than extending existing types.
 
 ### How to Ask
 
-1. **Open a GitHub Issue** using the [Clarification Request](https://github.com/connexcs/open-rate-card/issues/new?template=clarification.md) template
+1. **Open a GitHub Issue** using the [Clarification Request](https://github.com/connexcs/interconnect-made-easy/issues/new?template=clarification.md) template
 2. **Quote the specific text** that's unclear
 3. **Explain what you're trying to achieve**
 4. **Describe multiple interpretations** if applicable
@@ -258,7 +258,7 @@ Clarifications that improve documentation can be merged quickly (PATCH version).
 
 ### How to Report
 
-1. **Open a GitHub Issue** using the [Bug Report](https://github.com/connexcs/open-rate-card/issues/new?template=bug-report.md) template
+1. **Open a GitHub Issue** using the [Bug Report](https://github.com/connexcs/interconnect-made-easy/issues/new?template=bug-report.md) template
 2. **Provide:**
    - Exact JSON that fails/passes incorrectly
    - Schema version being used
@@ -470,12 +470,12 @@ Must meet ALL criteria:
 
 - 📖 Read [SPECIFICATION.md](SPECIFICATION.md) to understand current fields
 - 📋 Check [CARD-TYPES.md](CARD-TYPES.md) for card type patterns
-- 📚 Review [existing issues](https://github.com/connexcs/open-rate-card/issues) for similar proposals
-- 💬 Start a [GitHub Discussion](https://github.com/connexcs/open-rate-card/discussions) to brainstorm ideas
+- 📚 Review [existing issues](https://github.com/connexcs/interconnect-made-easy/issues) for similar proposals
+- 💬 Start a [GitHub Discussion](https://github.com/connexcs/interconnect-made-easy/discussions) to brainstorm ideas
 
 **Questions about the process?**
 
-Open a [Clarification Request](https://github.com/connexcs/open-rate-card/issues/new?template=clarification.md) issue.
+Open a [Clarification Request](https://github.com/connexcs/interconnect-made-easy/issues/new?template=clarification.md) issue.
 
 ---
 

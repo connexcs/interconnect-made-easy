@@ -1,13 +1,13 @@
-# Open Rate Card Specification
+# Interconnect Made Easy Specification
 
-[![Schema Validation](https://github.com/connexcs/open-rate-card/workflows/Schema%20Validation/badge.svg)](https://github.com/connexcs/open-rate-card/actions)
+[![Schema Validation](https://github.com/connexcs/interconnect-made-easy/workflows/Schema%20Validation/badge.svg)](https://github.com/connexcs/interconnect-made-easy/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 An open, standardized JSON format for telecommunications rate cards, enabling automated exchange of pricing, routing, and service information between VoIP carriers, wholesale providers, and system integrators.
 
 ## 🎯 Purpose
 
-The Open Rate Card specification eliminates the inefficiencies of PDF and Excel-based rate cards by providing:
+The Interconnect Made Easy specification eliminates the inefficiencies of PDF and Excel-based rate cards by providing:
 
 - **Standardization**: A common format that all systems can parse and validate
 - **Automation**: Enable programmatic rate card ingestion and comparison
@@ -45,7 +45,7 @@ The Open Rate Card specification eliminates the inefficiencies of PDF and Excel-
 npm install -g ajv-cli ajv-formats
 
 # Validate your rate card
-ajv validate -s schema/open-rate-card.schema.json -d your-rate-card.json --strict=false
+ajv validate -s schema/interconnect-made-easy.schema.json -d your-rate-card.json --strict=false
 ```
 
 #### Using Online Validators
@@ -57,7 +57,7 @@ ajv validate -s schema/open-rate-card.schema.json -d your-rate-card.json --stric
 
 **✅ Passing Validation:**
 ```bash
-$ ajv validate -s schema/open-rate-card.schema.json -d example.json
+$ ajv validate -s schema/interconnect-made-easy.schema.json -d example.json
 example.json valid
 ```
 
@@ -125,12 +125,12 @@ Error: data/cards/default must have required property 'endpoint'
 
 ### Schema
 
-- **[schema/open-rate-card.schema.json](schema/open-rate-card.schema.json)** - JSON Schema for validation
+- **[schema/interconnect-made-easy.schema.json](schema/interconnect-made-easy.schema.json)** - JSON Schema for validation
 
 ## 🏗️ Project Structure
 
 ```
-open-rate-card/
+interconnect-made-easy/
 ├── README.md                          # This file
 ├── SPECIFICATION.md                   # Complete specification
 ├── CARD-TYPES.md                      # Card type documentation
@@ -140,7 +140,7 @@ open-rate-card/
 ├── LICENSE                            # MIT License
 ├── example.json                       # Comprehensive example
 ├── schema/
-│   └── open-rate-card.schema.json    # JSON Schema
+│   └── interconnect-made-easy.schema.json    # JSON Schema
 └── .github/
     ├── workflows/
     │   └── validate-schema.yml       # CI/CD validation
@@ -157,7 +157,7 @@ open-rate-card/
 ### Document Level (5 required fields)
 
 - `name` - Rate card or provider name
-- `schema_version` - Open Rate Card specification version (semantic versioning)
+- `schema_version` - Interconnect Made Easy specification version (semantic versioning)
 - `version` - Rate card document version
 - `date` - Creation date (YYYY-MM-DD)
 - `cards` - At least one rate card
@@ -184,7 +184,7 @@ This specification is designed as an **evolving minimum requirement**:
 - ✅ **Additional properties are allowed** - Add custom fields to any section without breaking validation
 - ✅ **Parsers must ignore unknown fields** - Gracefully handle extensions they don't recognize
 - ✅ **No breaking changes to existing fields** - Fields are never removed, only deprecated
-- ✅ **Community-driven evolution** - Propose extensions via [GitHub Issues](https://github.com/connexcs/open-rate-card/issues)
+- ✅ **Community-driven evolution** - Propose extensions via [GitHub Issues](https://github.com/connexcs/interconnect-made-easy/issues)
 
 The fields documented in this specification represent the **minimum standard** for interoperability. Implementations can extend any section with additional fields relevant to their use case, ensuring the specification grows with industry needs while maintaining backward compatibility.
 
@@ -220,7 +220,7 @@ We welcome community contributions! This is an open specification designed to se
 
 **How to contribute:**
 
-1. **Propose new fields or card types** - Open a [GitHub Issue](https://github.com/connexcs/open-rate-card/issues/new/choose) using our templates
+1. **Propose new fields or card types** - Open a [GitHub Issue](https://github.com/connexcs/interconnect-made-easy/issues/new/choose) using our templates
 2. **Discuss and refine** - Community discussion period (minimum 14 days)
 3. **Review and approval** - Maintainers review for backward compatibility
 4. **Documentation updates** - Accepted changes are added to the specification
@@ -243,9 +243,9 @@ Copyright © 2026 Connex Carrier Services
 
 ## 🔗 Links
 
-- **GitHub Repository**: [connexcs/open-rate-card](https://github.com/connexcs/open-rate-card)
-- **Issue Tracker**: [Report issues or propose features](https://github.com/connexcs/open-rate-card/issues)
-- **Discussions**: [Join the conversation](https://github.com/connexcs/open-rate-card/discussions)
+- **GitHub Repository**: [connexcs/interconnect-made-easy](https://github.com/connexcs/interconnect-made-easy)
+- **Issue Tracker**: [Report issues or propose features](https://github.com/connexcs/interconnect-made-easy/issues)
+- **Discussions**: [Join the conversation](https://github.com/connexcs/interconnect-made-easy/discussions)
 
 ## 📊 Version
 

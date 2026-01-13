@@ -1,6 +1,6 @@
 # Versioning and Compatibility
 
-This document describes the versioning strategy, backward compatibility principles, and migration guidelines for the Open Rate Card specification.
+This document describes the versioning strategy, backward compatibility principles, and migration guidelines for the Interconnect Made Easy specification.
 
 ---
 
@@ -20,7 +20,7 @@ This document describes the versioning strategy, backward compatibility principl
 
 ## Versioning Strategy
 
-The Open Rate Card specification uses **semantic versioning** to communicate the nature and impact of changes.
+The Interconnect Made Easy specification uses **semantic versioning** to communicate the nature and impact of changes.
 
 ### Version Numbers
 
@@ -146,7 +146,7 @@ A parser built for 1.0.0 must:
 
 ### `schema_version` (Required)
 
-**Purpose:** Indicates which version of the Open Rate Card specification the document conforms to
+**Purpose:** Indicates which version of the Interconnect Made Easy specification the document conforms to
 
 **Format:** Semantic versioning (MAJOR.MINOR.PATCH)
 

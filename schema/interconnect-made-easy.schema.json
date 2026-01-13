@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/connexcs/open-rate-card/schema/v1.0.0",
-  "title": "Open Rate Card Specification",
+  "$id": "https://github.com/connexcs/interconnect-made-easy/schema/v1.0.0",
+  "title": "Interconnect Made Easy Specification",
   "description": "A standardized JSON format for telecommunications rate cards, enabling automated exchange of pricing, routing, and service information between VoIP carriers and wholesale providers.",
   "type": "object",
   "required": ["name", "schema_version", "version", "date", "cards"],
@@ -23,7 +23,7 @@
     },
     "schema_version": {
       "type": "string",
-      "description": "The version of the Open Rate Card specification being used",
+      "description": "The version of the Interconnect Made Easy specification being used",
       "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
     },
     "author": {

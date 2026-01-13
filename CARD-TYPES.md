@@ -1,6 +1,6 @@
 # Card Types Reference
 
-This document provides detailed information about the three primary card types supported in the Open Rate Card specification:
+This document provides detailed information about the three primary card types supported in the Interconnect Made Easy specification:
 
 1. [Termination Cards](#termination-cards) - Outbound voice traffic
 2. [Origination Cards](#origination-cards) - Inbound DID/DDI services  

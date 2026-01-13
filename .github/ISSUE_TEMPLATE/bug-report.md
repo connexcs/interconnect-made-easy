@@ -87,7 +87,7 @@ assignees: ''
 
 **If schema bug, which section of the schema is affected?**
 
-**File:** `schema/open-rate-card.schema.json`
+**File:** `schema/interconnect-made-easy.schema.json`
 
 **Section/Path:** (e.g., `properties.cards.additionalProperties.properties.rate`)
 

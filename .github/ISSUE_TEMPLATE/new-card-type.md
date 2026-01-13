@@ -237,7 +237,7 @@ What documentation should accompany this card type?
 - [ ] Add section to [CARD-TYPES.md](../../CARD-TYPES.md)
 - [ ] Update [SPECIFICATION.md](../../SPECIFICATION.md)
 - [ ] Add examples to [example.json](../../example.json)
-- [ ] Update [schema/open-rate-card.schema.json](../../schema/open-rate-card.schema.json)
+- [ ] Update [schema/interconnect-made-easy.schema.json](../../schema/interconnect-made-easy.schema.json)
 - [ ] Add terminology to [GLOSSARY.md](../../GLOSSARY.md)
 
 ## Implementation
