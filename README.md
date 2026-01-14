@@ -250,6 +250,7 @@ This ensures long-term interoperability across carriers and platforms.
 + A switch provisioning manual
 + A billing engine definition
 + A routing algorithm specification
++ This will not replace contracts
 
 ## 🌐 Target Audience
 
