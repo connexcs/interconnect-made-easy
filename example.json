@@ -1,4 +1,4 @@
-```bash
+
 {
   "name": "ABC Telecom Interconnect",
   "description": "ABC Telecom provides international voice termination services.",
@@ -169,7 +169,6 @@
     "notes": "Initial signed interconnect release"
   }
 }
-```
 
 Here is the **list of changes**:
 
